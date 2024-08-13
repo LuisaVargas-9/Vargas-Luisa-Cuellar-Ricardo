@@ -34,6 +34,11 @@ class OdontologoEnMemoriaTest {
     void caso2(){
         //DADO
         List<Odontologo> odontologoList;
+        Odontologo odontologo1 = new Odontologo("154", "Luisa", "Vargas");
+        Odontologo odontologo2 = new Odontologo("457", "Arya", "Lopez");
+        Odontologo odontologoEnMemoria1 = odontologoService.guardarOdontologo(odontologo1);
+        Odontologo odontologoEnMemoria2 = odontologoService.guardarOdontologo(odontologo2);
+
         //CUANDO
         odontologoList = odontologoService.buscarTodos();
         logger.info(odontologoList);
