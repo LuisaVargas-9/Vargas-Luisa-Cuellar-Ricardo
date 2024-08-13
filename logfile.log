@@ -35,3 +35,23 @@
 [2024-08-12 21:59:36] [ INFO ] [DaoH2Odontologo:67] [buscarTodos] odontologo buscado: Odontologo{id=1, numeroMatricula='156', nombre='Luisa', apellido='Vargas'}
 [2024-08-12 21:59:36] [ INFO ] [DaoH2Odontologo:67] [buscarTodos] odontologo buscado: Odontologo{id=2, numeroMatricula='457', nombre='ARYA', apellido='LOPEZ'}
 [2024-08-12 21:59:36] [ INFO ] [DaoH2Odontologo:67] [buscarTodos] odontologo buscado: Odontologo{id=3, numeroMatricula='123', nombre='Ricardo', apellido='Cuellar'}
+[2024-08-12 22:14:49] [ INFO ] [DaoEnMemoria:18] [guardar] Odontologo guardado en memoria: model.Odontologo@63a65a25
+[2024-08-12 22:14:49] [ INFO ] [OdontologoEnMemoriaTest:28] [caso1] model.Odontologo@63a65a25
+[2024-08-12 22:14:49] [ DEBUG] [DaoEnMemoria:24] [buscarTodos] Lista de odontologos: [model.Odontologo@63a65a25]
+[2024-08-12 22:14:49] [ INFO ] [OdontologoEnMemoriaTest:39] [caso2] [model.Odontologo@63a65a25]
+[2024-08-12 22:25:23] [ INFO ] [DaoEnMemoria:18] [guardar] Odontologo guardado en memoria: model.Odontologo@63a65a25
+[2024-08-12 22:25:23] [ INFO ] [OdontologoEnMemoriaTest:28] [caso1] model.Odontologo@63a65a25
+[2024-08-12 22:25:23] [ INFO ] [DaoEnMemoria:18] [guardar] Odontologo guardado en memoria: model.Odontologo@65466a6a
+[2024-08-12 22:25:23] [ INFO ] [DaoEnMemoria:18] [guardar] Odontologo guardado en memoria: model.Odontologo@4ddced80
+[2024-08-12 22:25:23] [ DEBUG] [DaoEnMemoria:24] [buscarTodos] Lista de odontologos: [model.Odontologo@63a65a25, model.Odontologo@65466a6a, model.Odontologo@4ddced80]
+[2024-08-12 22:25:23] [ INFO ] [OdontologoEnMemoriaTest:44] [caso2] [model.Odontologo@63a65a25, model.Odontologo@65466a6a, model.Odontologo@4ddced80]
+[2024-08-12 22:26:19] [ INFO ] [DaoH2Odontologo:36] [guardar] Odontologo guardado en la base de datosmodel.Odontologo@2ca923bb
+[2024-08-12 22:26:19] [ INFO ] [DaoH2Odontologo:67] [buscarTodos] odontologo buscado: model.Odontologo@352ff4da
+[2024-08-12 22:26:19] [ INFO ] [DaoH2Odontologo:67] [buscarTodos] odontologo buscado: model.Odontologo@2e32ccc5
+[2024-08-12 22:26:19] [ INFO ] [DaoH2Odontologo:67] [buscarTodos] odontologo buscado: model.Odontologo@748741cb
+[2024-08-12 22:29:01] [ INFO ] [DaoEnMemoria:18] [guardar] Odontologo guardado en memoria: Odontologo{id=1, numeroMatricula='123', nombre='Ricardo', apellido='Cuellar'}
+[2024-08-12 22:29:01] [ INFO ] [OdontologoEnMemoriaTest:28] [caso1] Odontologo{id=1, numeroMatricula='123', nombre='Ricardo', apellido='Cuellar'}
+[2024-08-12 22:29:01] [ INFO ] [DaoEnMemoria:18] [guardar] Odontologo guardado en memoria: Odontologo{id=2, numeroMatricula='154', nombre='Luisa', apellido='Vargas'}
+[2024-08-12 22:29:01] [ INFO ] [DaoEnMemoria:18] [guardar] Odontologo guardado en memoria: Odontologo{id=3, numeroMatricula='457', nombre='Arya', apellido='Lopez'}
+[2024-08-12 22:29:01] [ DEBUG] [DaoEnMemoria:24] [buscarTodos] Lista de odontologos: [Odontologo{id=1, numeroMatricula='123', nombre='Ricardo', apellido='Cuellar'}, Odontologo{id=2, numeroMatricula='154', nombre='Luisa', apellido='Vargas'}, Odontologo{id=3, numeroMatricula='457', nombre='Arya', apellido='Lopez'}]
+[2024-08-12 22:29:01] [ INFO ] [OdontologoEnMemoriaTest:44] [caso2] [Odontologo{id=1, numeroMatricula='123', nombre='Ricardo', apellido='Cuellar'}, Odontologo{id=2, numeroMatricula='154', nombre='Luisa', apellido='Vargas'}, Odontologo{id=3, numeroMatricula='457', nombre='Arya', apellido='Lopez'}]
